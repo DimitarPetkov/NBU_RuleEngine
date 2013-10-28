@@ -8,6 +8,9 @@ namespace Model
     class KnowledgeBase
     {
         private Rule[] agenda;
+        private Rule[] ruleLib;
+        private Fact[] facts;
+
 
         private void init()
         {
