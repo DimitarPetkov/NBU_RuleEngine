@@ -7,6 +7,8 @@ namespace Model
 {
     class KnowledgeBase
     {
+        private Rule[] agenda;
+
         private void init()
         {
 
